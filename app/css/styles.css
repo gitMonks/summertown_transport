@@ -1,0 +1,21 @@
+body {
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 1.6em;
+  color: #fff; }
+
+h1 {
+  color: #00186c;
+  font-weight: 500;
+  font-size: 36px;
+  padding-top: 20px; }
+
+.navbar {
+  background-color: #00b3e6;
+  border-color: #119cc3; }
+  .navbar a {
+    color: #00186c !important; }
+
+#banner {
+  background-color: #00b3e6;
+  padding: 50px 10px; }
