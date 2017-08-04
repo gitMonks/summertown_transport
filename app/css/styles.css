@@ -2,20 +2,127 @@ body {
   background-color: #fff;
   font-size: 18px;
   line-height: 1.6em;
-  color: #fff; }
+  color: #000; }
 
 h1 {
-  color: #00186c;
+  color: #f18610;
   font-weight: 500;
-  font-size: 36px;
-  padding-top: 20px; }
+  font-size: 66px;
+  padding-top: 60px;
+  text-align: center;
+  margin-bottom: 25px;
+  text-transform: uppercase; }
+
+.heading-3 {
+  color: #aaa;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1em; }
 
 .navbar {
   background-color: #00b3e6;
-  border-color: #119cc3; }
+  border-color: #119cc3;
+  margin-bottom: 0; }
   .navbar a {
-    color: #00186c !important; }
+    color: #00186c !important;
+    text-transform: capitalize; }
+
+.hero-container {
+  padding: 0;
+  background: url(../images/radcliffe_camera.jpg) no-repeat;
+  background-size: cover; }
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.75); }
+
+.hero {
+  color: #777;
+  padding-bottom: 40px; }
 
 #banner {
   background-color: #00b3e6;
   padding: 50px 10px; }
+
+ul.intro {
+  list-style-type: none; }
+  ul.intro li {
+    padding: 10px 5px;
+    font-size: 30px;
+    letter-spacing: 3.5px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase; }
+
+.prebook-container {
+  padding: 20px 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px; }
+  .prebook-container h2 {
+    color: #00b3e6;
+    text-align: center; }
+  .prebook-container a {
+    color: #fff; }
+
+ul.prebook-list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 24px;
+  list-style-type: none; }
+  ul.prebook-list li {
+    padding: 10px;
+    flex-basis: 50%; }
+
+.contact {
+  border: 1px solid #000; }
+
+.bipanel-container {
+  display: flex;
+  padding: 0; }
+  .bipanel-container p.big {
+    font-size: 18px;
+    color: #f18610;
+    text-transform: capitalize; }
+
+.dark-panel {
+  padding: 60px;
+  background-color: #00b3e6;
+  color: #fff;
+  text-align: center; }
+  .dark-panel h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    letter-spacing: 3.5px;
+    text-transform: uppercase; }
+  .dark-panel p {
+    font-size: 16px;
+    color: #e6e1e1; }
+
+.light-panel {
+  padding: 60px;
+  background-color: #f6f6f6;
+  color: #8b8b8b; }
+  .light-panel h2 {
+    color: #00186c;
+    text-transform: uppercase; }
+
+.fleet {
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.7); }
+  .fleet h2 {
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 3.6px;
+    text-align: center;
+    margin-bottom: 30px; }
+  .fleet p {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px; }
+  .fleet img {
+    height: 250px;
+    width: 400px;
+    border: 2px solid #fff;
+    border-radius: 5px; }
