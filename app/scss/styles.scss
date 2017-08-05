@@ -1,7 +1,8 @@
 // $main-heading-color: #fed312;
 $main-heading-color: #ffd845;
 $bg-color: #00186c;
-$secondary-bg-color: #00b3e6;
+// $secondary-bg-color: #00b3e6;
+$secondary-bg-color: #4c1165;
 
 body {
 	background-color: #fff;
@@ -76,7 +77,7 @@ ul.intro {
 	border: 1px solid #aaa;
 	border-radius: 5px;
 	h2 {
-		color: $secondary-bg-color;
+		color: #f18610;
 		text-align: center;
 	}
 	a {
@@ -101,8 +102,8 @@ ul.prebook-list {
 }
 
 .bipanel-container {
-	// background-color: $secondary-bg-color;
-	display: flex;
+	// display: flex;
+	background-color: $secondary-bg-color;
 	padding: 0;
 	p.big {
 		font-size: 18px;
@@ -144,6 +145,7 @@ ul.prebook-list {
 .fleet {
 	padding: 60px;
 	background-color: rgba(0,0,0, 0.7);
+	text-align: center;
 	h2 {
 		color: #fff;
 		font-size: 36px;
@@ -162,5 +164,18 @@ ul.prebook-list {
 		width: 400px;
 		border: 2px solid #fff;
 		border-radius: 5px;
+		margin-bottom: 20px;
+	}
+	.fleet .price-table {
+		text-align: center;
+	}
+}
+
+.price-table {
+	th {
+		text-align: center;
+	}
+	th, td {
+		padding: 10px;
 	}
 }
