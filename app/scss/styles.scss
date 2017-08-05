@@ -1,8 +1,8 @@
 // $main-heading-color: #fed312;
 $main-heading-color: #ffd845;
 $bg-color: #00186c;
-// $secondary-bg-color: #00b3e6;
-$secondary-bg-color: #4c1165;
+$secondary-bg-color: #00b3e6;
+// $secondary-bg-color: #4c1165;
 
 body {
 	background-color: #fff;
@@ -123,6 +123,7 @@ ul.prebook-list {
 		line-height: 36px;
 		letter-spacing: 3.5px;
 		text-transform: uppercase;
+		margin-bottom: 30px;
 	}
 
 	p{
@@ -139,15 +140,21 @@ ul.prebook-list {
 		color: $bg-color;
 		text-transform: uppercase;
 	}
+	h3 {
+		color: $bg-color;
+		text-transform: uppercase;
+	}
 
+}
+#cars {
+	background-color: rgba(0,0,0, 0.7);
+	padding: 60px;
 }
 
 .fleet {
-	padding: 60px;
-	background-color: rgba(0,0,0, 0.7);
 	text-align: center;
 	h2 {
-		color: #fff;
+		color: #f18610;
 		font-size: 36px;
 		letter-spacing: 3.6px;
 		text-align: center;
@@ -166,16 +173,40 @@ ul.prebook-list {
 		border-radius: 5px;
 		margin-bottom: 20px;
 	}
-	.fleet .price-table {
-		text-align: center;
-	}
 }
 
 .price-table {
+	text-align: center;
+	table {
+		width: 100%;
+	}
 	th {
 		text-align: center;
 	}
 	th, td {
 		padding: 10px;
+		border: 1px solid #ccc;
+	}
+	td {
+		text-align: left;
 	}
 }
+
+.promo {
+	margin-bottom: 0px !important;
+}
+#accounts {
+	padding: 0;
+	background: url("../images/corporate_bg.jpg") no-repeat;
+	background-size: cover;
+	background-position: 50%;
+	h3 {
+		color: #f18610;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+	.container {
+		padding: 60px;
+	}
+}
+
