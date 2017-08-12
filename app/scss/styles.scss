@@ -106,7 +106,7 @@ ul.prebook-list {
 
 .bipanel-container {
 	// display: flex;
-	background-color: $secondary-bg-color;
+	background-color: #f6f6f6;
 	padding: 0;
 	p.big {
 		font-size: 18px;
@@ -146,6 +146,9 @@ ul.prebook-list {
 	h3 {
 		color: $bg-color;
 		text-transform: uppercase;
+	}
+	.mission {
+		text-align: center;
 	}
 
 }
@@ -196,8 +199,18 @@ ul.prebook-list {
 }
 
 .promo {
-	margin-bottom: 0px !important;
+	background-color: #ccc;
+	padding: 10px 0;
+	h3 {
+		color: $bg-color;
+		margin-bottom: 0px !important;	
+	}
+	p {
+		color: $bg-color;
+	}
+
 }
+
 #accounts {
 	padding: 0;
 	background: url("../images/corporate_bg.jpg") no-repeat;
