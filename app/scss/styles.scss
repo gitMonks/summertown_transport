@@ -22,6 +22,11 @@ h1 {
 	text-transform: uppercase;
 }
 
+h2 {
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
 .heading-3 {
 	color: #aaa;
 	font-size: 24px;
@@ -105,8 +110,9 @@ ul.prebook-list {
 }
 
 .bipanel-container {
-	// display: flex;
-	background-color: #f6f6f6;
+	// smaller height column background used here to create the illusion 
+	//of two columns.
+	background-color: $secondary-bg-color;
 	padding: 0;
 	p.big {
 		font-size: 18px;
@@ -181,36 +187,16 @@ ul.prebook-list {
 	}
 }
 
-.price-table {
-	text-align: center;
-	table {
-		width: 100%;
-	}
-	th {
-		text-align: center;
-	}
-	th, td {
-		padding: 10px;
-		border: 1px solid #ccc;
-	}
-	td {
-		text-align: left;
-	}
-}
-
 .promo {
-	background-color: #ccc;
-	padding: 10px 0;
-	h3 {
-		color: $bg-color;
-		margin-bottom: 0px !important;	
-	}
-	p {
-		color: $bg-color;
-	}
-
+	padding: 10px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	margin-bottom: 25px;
 }
 
+.mission {
+	text-align: center;
+}
 #accounts {
 	padding: 0;
 	background: url("../images/corporate_bg.jpg") no-repeat;
@@ -226,3 +212,20 @@ ul.prebook-list {
 	}
 }
 
+// .coverage {
+//     -webkit-column-count: 3; /* Chrome, Safari, Opera */
+//     -moz-column-count: 3; /* Firefox */
+//     column-count: 3;
+
+//     -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+//     -moz-column-gap: 40px; /* Firefox */
+//     column-gap: 40px;
+// }
+
+footer {
+	background-color: #000;
+	color: #fff;
+	.container {
+			padding: 60px 20px;
+	}
+}

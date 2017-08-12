@@ -13,6 +13,10 @@ h1 {
   margin-bottom: 25px;
   text-transform: uppercase; }
 
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 25px; }
+
 .heading-3 {
   color: #aaa;
   font-size: 24px;
@@ -77,7 +81,7 @@ ul.prebook-list {
   border: 1px solid #000; }
 
 .bipanel-container {
-  background-color: #f6f6f6;
+  background-color: #00b3e6;
   padding: 0; }
   .bipanel-container p.big {
     font-size: 18px;
@@ -137,26 +141,14 @@ ul.prebook-list {
     border-radius: 5px;
     margin-bottom: 20px; }
 
-.price-table {
-  text-align: center; }
-  .price-table table {
-    width: 100%; }
-  .price-table th {
-    text-align: center; }
-  .price-table th, .price-table td {
-    padding: 10px;
-    border: 1px solid #ccc; }
-  .price-table td {
-    text-align: left; }
-
 .promo {
-  background-color: #ccc;
-  padding: 10px 0; }
-  .promo h3 {
-    color: #00186c;
-    margin-bottom: 0px !important; }
-  .promo p {
-    color: #00186c; }
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 25px; }
+
+.mission {
+  text-align: center; }
 
 #accounts {
   padding: 0;
@@ -169,3 +161,9 @@ ul.prebook-list {
     margin-bottom: 30px; }
   #accounts .container {
     padding: 60px; }
+
+footer {
+  background-color: #000;
+  color: #fff; }
+  footer .container {
+    padding: 60px 20px; }
