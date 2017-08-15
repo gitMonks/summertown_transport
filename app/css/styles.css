@@ -7,7 +7,6 @@ body {
 h1 {
   color: #f18610;
   font-weight: 500;
-  font-size: 66px;
   padding-top: 60px;
   text-align: center;
   margin-bottom: 25px;
@@ -107,15 +106,17 @@ ul.prebook-list {
 .light-panel {
   padding: 60px;
   background-color: #f6f6f6;
-  color: #8b8b8b; }
+  color: #1a56e4; }
   .light-panel h2 {
     color: #00186c;
     text-transform: uppercase; }
   .light-panel h3 {
     color: #00186c;
     text-transform: uppercase; }
+  .light-panel h4 {
+    color: #8b8b8b; }
   .light-panel .mission {
-    text-align: center; }
+    text-align: center !important; }
 
 #cars {
   background-color: rgba(0, 0, 0, 0.7);
@@ -141,14 +142,23 @@ ul.prebook-list {
     border-radius: 5px;
     margin-bottom: 20px; }
 
+.price-table {
+  text-align: center; }
+  .price-table table {
+    width: 100%; }
+  .price-table th {
+    text-align: center; }
+  .price-table th, .price-table td {
+    padding: 10px;
+    border: 1px solid #ccc; }
+  .price-table td {
+    text-align: left; }
+
 .promo {
   padding: 10px;
   border: 1px solid #fff;
   border-radius: 5px;
   margin-bottom: 25px; }
-
-.mission {
-  text-align: center; }
 
 #accounts {
   padding: 0;
@@ -162,8 +172,37 @@ ul.prebook-list {
   #accounts .container {
     padding: 60px; }
 
+.coverage-container {
+  background-color: #00b3e6;
+  text-align: center;
+  color: #fff;
+  padding: 60px; }
+
+.coverage {
+  text-align: left;
+  column-width: 33.3%;
+  column-count: 3; }
+  .coverage li {
+    list-style-type: none;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    text-transform: capitalize; }
+
 footer {
   background-color: #000;
   color: #fff; }
   footer .container {
     padding: 60px 20px; }
+  footer .logo {
+    height: 200px;
+    width: 300px; }
+  footer h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    border-bottom: 1px solid #999; }
+  footer ul {
+    list-style-type: none; }
+    footer ul li {
+      padding-top: 5px; }
