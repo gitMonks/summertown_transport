@@ -1,8 +1,17 @@
-// $main-heading-color: #fed312;
-$main-heading-color: #ffd845;
-$bg-color: #00186c;
-$secondary-bg-color: #00b3e6;
-// $secondary-bg-color: #4c1165;
+// Note: we use Autoprefixer to add vendor prefixes to our CSS -> https://github.com/postcss/autoprefixer
+
+@import '../partials/variables'; // colors, fonts etc...
+
+@import '../partials/mixins'; // custom mixins
+
+@import '../partials/layout'; // responsive grid and media queries
+
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+
 
 body {
 	background-color: #fff;
