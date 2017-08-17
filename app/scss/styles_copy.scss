@@ -16,25 +16,19 @@ Primary style
 body {
 	background-color: #fff;
 	// font-family: sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.6em;
 	color: #000;
 }
 
-ul {
-	padding: 0;
-}
 h1 {
-	color: $main-heading-color;
+	color: #f18610;
 	font-weight: 500;
+	// font-size: 66px;
+	padding-top: 60px;
 	text-align: center;
-	padding-top: 20px;
+	margin-bottom: 25px;
 	text-transform: uppercase;
-	@include MQ(M) {
-		font-size: 66px;
-		margin-bottom: 20px;
-		padding-top: 60px;
-	}
 }
 
 h2 {
@@ -65,15 +59,10 @@ h2 {
 	padding: 0;
 	background: url(../images/radcliffe_camera.jpg) no-repeat;
 	background-size: cover;
-	background-position: 50%;
-	@include MQ(M) {
-		background-position: 0;
-	}
 }
 
 .overlay {
 		background-color: rgba(0,0,0, .75);
-		padding: 0;
 }
 .hero {
 	color: #777;
@@ -86,33 +75,24 @@ h2 {
 
 ul.intro {
 	list-style-type: none;
-	text-align: center;
-	padding: 0;
 	li {
+		padding: 10px 5px;
+		font-size: 30px;
 		letter-spacing: 3.5px;
-		padding: 5px;
-		line-height: 2em;
+		line-height: 45px;
 		text-align: center;
 		color: #fff; 
 		text-transform: uppercase;
-		@include MQ(M) {
-			font-size: 30px;
-			padding: 10px 5px;
-			line-height: 45px;
-		
-		}
 	}
 }
 
 .prebook-container {
-	padding: 10px 0;
+	padding: 20px 10px;
 	border: 1px solid #aaa;
 	border-radius: 5px;
 	h2 {
-		color: $main-heading-color;
+		color: #f18610;
 		text-align: center;
-		line-height: 16px;
-
 	}
 	a {
 		color: #fff;
@@ -120,6 +100,10 @@ ul.intro {
 }
 
 ul.prebook-list {
+	// padding: 10px;
+	// display: flex;
+	// flex-wrap: wrap;
+	font-size: 24px;
 	list-style-type: none;
 	li {
 		padding: 10px;
@@ -127,10 +111,6 @@ ul.prebook-list {
 	}
 	.col-xs-12, .col-xs-6 {
 		text-align: center;
-	}
-
-	@include MQ(M) {
-		font-size: 24px;
 	}
 }
 
@@ -145,47 +125,36 @@ ul.prebook-list {
 	padding: 0;
 	p.big {
 		font-size: 18px;
-		color: $main-heading-color;
+		color: #f18610;
 		text-transform: capitalize;
 	}
 }
 .dark-panel {
-	padding: 30px;
+	padding: 60px;
 	// background-color: rgb(239, 75, 19);
 	background-color: $secondary-bg-color;
 	color: #fff;
-	h2 {
-		text-align: center;
-	}
+	text-align: center;
 	h3{
 		font-size: 24px;
 		font-weight: bold;
 		line-height: 36px;
 		letter-spacing: 3.5px;
 		text-transform: uppercase;
-		text-align: center;
 		margin-bottom: 30px;
 	}
 
 	p{
-		font-size: 1em;
+		font-size: 16px;
 		color: #e6e1e1;
-	}
-
-	@include MQ(M) {
-		padding: 60px;
-		text-align: center;
 	}
 }
 
 .light-panel {
-	padding: 30px;
+	padding: 60px;
 	background-color: #f6f6f6;
 	// color: #8b8b8b;
 	color: #1a56e4;
-	h2, h3, h4 {
-		text-align: center;
-	}
 	h2 {
 		color: $bg-color;
 		text-transform: uppercase;
@@ -197,40 +166,20 @@ ul.prebook-list {
 	h4 {
 		color: #8b8b8b;
 	}
-	p {
-		font-size: 1em;
+	.mission {
+		text-align: center !important;
 	}
-	@include MQ(M) {
-		padding: 60px;
-	}
-}
-.promo {
-	padding: 10px;
-	border: 1px solid #fff;
-	border-radius: 5px;
-	margin-bottom: 25px;
-}
 
-#services {
-	.col-xs-12 {
-		padding: 0;
-	}
-	h2, h4 {
-		text-align: center;
-		@include MQ(M) {
-			text-align: left;
-		}
-	}
 }
 #cars {
 	background-color: rgba(0,0,0, 0.7);
-	padding: 30px;
+	padding: 60px;
 }
 
 .fleet {
 	text-align: center;
 	h2 {
-		color: $main-heading-color;
+		color: #f18610;
 		font-size: 36px;
 		letter-spacing: 3.6px;
 		text-align: center;
@@ -239,72 +188,73 @@ ul.prebook-list {
 	p{
 		font-size: 18px;
 		color: #fff;
+		text-align: center;
 		margin-bottom: 60px;
 	}
 	img {
-		// height: 250px;
-		max-width: 100%;
+		height: 250px;
+		width: 400px;
 		border: 2px solid #fff;
 		border-radius: 5px;
 		margin-bottom: 20px;
 	}
 }
 
-.mission {
-	h3, h4 {
+.price-table {
+	text-align: center;
+	table {
+		width: 100%;
+	}
+	th {
 		text-align: center;
 	}
-	@include MQ(M) {
-		text-align: center;
+	th, td {
+		padding: 10px;
+		border: 1px solid #ccc;
+	}
+	td {
+		text-align: left;
 	}
 }
 
+.promo {
+	padding: 10px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
 
 #accounts {
 	padding: 0;
 	background: url("../images/corporate_bg.jpg") no-repeat;
 	background-size: cover;
 	background-position: 50%;
-	text-align: left;
 	h3 {
-		color: $main-heading-color;
+		color: #f18610;
 		text-transform: uppercase;
 		margin-bottom: 30px;
-		text-align: center;
-	}
-	p{
-		font-size: 18px;
-		color: #fff;
-		margin-bottom: 60px;
 	}
 	.container {
-		padding: 30px;
-	}
-	@include MQ(M) {
-		text-align: left;
+		padding: 60px;
 	}
 }
 .coverage-container {
 	background-color: $secondary-bg-color;
 	text-align: center;	
 	color: #fff;
-	padding: 30px;
+	padding: 60px;
 }
 .coverage {
 	text-align: left;
-	column-width: 50%;
-	column-count: 2;
+	column-width: 33.3%;
+	column-count: 3;
+	// column-gap: 10px;
 	li {
 		list-style-type: none;
 		color: #fff;
 		border-bottom: 1px solid #ccc;
 		padding: 5px;
 		text-transform: capitalize;
-	}
-	@include MQ(M) {
-		padding: 60px;
-		column-width: 33.3%;
-		column-count: 3;
 	}
 }
 
@@ -316,8 +266,8 @@ footer {
 	}
 	
 	.logo {
-		// height: 200px;
-		max-width: 100%;
+		height: 200px;
+		width: 300px;
 	}
 	h3 {
 		text-align: center;

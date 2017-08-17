@@ -5,24 +5,17 @@ Primary style
 -------------------------------- */
 body {
   background-color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6em;
   color: #000; }
-
-ul {
-  padding: 0; }
 
 h1 {
   color: #f18610;
   font-weight: 500;
+  padding-top: 60px;
   text-align: center;
-  padding-top: 20px;
+  margin-bottom: 25px;
   text-transform: uppercase; }
-  @media only screen and (min-width: 800px) {
-    h1 {
-      font-size: 66px;
-      margin-bottom: 20px;
-      padding-top: 60px; } }
 
 h2 {
   text-transform: uppercase;
@@ -45,15 +38,10 @@ h2 {
 .hero-container {
   padding: 0;
   background: url(../images/radcliffe_camera.jpg) no-repeat;
-  background-size: cover;
-  background-position: 50%; }
-  @media only screen and (min-width: 800px) {
-    .hero-container {
-      background-position: 0; } }
+  background-size: cover; }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.75);
-  padding: 0; }
+  background-color: rgba(0, 0, 0, 0.75); }
 
 .hero {
   color: #777;
@@ -64,43 +52,34 @@ h2 {
   padding: 50px 10px; }
 
 ul.intro {
-  list-style-type: none;
-  text-align: center;
-  padding: 0; }
+  list-style-type: none; }
   ul.intro li {
+    padding: 10px 5px;
+    font-size: 30px;
     letter-spacing: 3.5px;
-    padding: 5px;
-    line-height: 2em;
+    line-height: 45px;
     text-align: center;
     color: #fff;
     text-transform: uppercase; }
-    @media only screen and (min-width: 800px) {
-      ul.intro li {
-        font-size: 30px;
-        padding: 10px 5px;
-        line-height: 45px; } }
 
 .prebook-container {
-  padding: 10px 0;
+  padding: 20px 10px;
   border: 1px solid #aaa;
   border-radius: 5px; }
   .prebook-container h2 {
     color: #f18610;
-    text-align: center;
-    line-height: 16px; }
+    text-align: center; }
   .prebook-container a {
     color: #fff; }
 
 ul.prebook-list {
+  font-size: 24px;
   list-style-type: none; }
   ul.prebook-list li {
     padding: 10px;
     flex-basis: 50%; }
   ul.prebook-list .col-xs-12, ul.prebook-list .col-xs-6 {
     text-align: center; }
-  @media only screen and (min-width: 800px) {
-    ul.prebook-list {
-      font-size: 24px; } }
 
 .contact {
   border: 1px solid #000; }
@@ -114,33 +93,25 @@ ul.prebook-list {
     text-transform: capitalize; }
 
 .dark-panel {
-  padding: 30px;
+  padding: 60px;
   background-color: #00b3e6;
-  color: #fff; }
-  .dark-panel h2 {
-    text-align: center; }
+  color: #fff;
+  text-align: center; }
   .dark-panel h3 {
     font-size: 24px;
     font-weight: bold;
     line-height: 36px;
     letter-spacing: 3.5px;
     text-transform: uppercase;
-    text-align: center;
     margin-bottom: 30px; }
   .dark-panel p {
-    font-size: 1em;
+    font-size: 16px;
     color: #e6e1e1; }
-  @media only screen and (min-width: 800px) {
-    .dark-panel {
-      padding: 60px;
-      text-align: center; } }
 
 .light-panel {
-  padding: 30px;
+  padding: 60px;
   background-color: #f6f6f6;
   color: #1a56e4; }
-  .light-panel h2, .light-panel h3, .light-panel h4 {
-    text-align: center; }
   .light-panel h2 {
     color: #00186c;
     text-transform: uppercase; }
@@ -149,30 +120,12 @@ ul.prebook-list {
     text-transform: uppercase; }
   .light-panel h4 {
     color: #8b8b8b; }
-  .light-panel p {
-    font-size: 1em; }
-  @media only screen and (min-width: 800px) {
-    .light-panel {
-      padding: 60px; } }
-
-.promo {
-  padding: 10px;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  margin-bottom: 25px; }
-
-#services .col-xs-12 {
-  padding: 0; }
-
-#services h2, #services h4 {
-  text-align: center; }
-  @media only screen and (min-width: 800px) {
-    #services h2, #services h4 {
-      text-align: left; } }
+  .light-panel .mission {
+    text-align: center !important; }
 
 #cars {
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 30px; }
+  padding: 60px; }
 
 .fleet {
   text-align: center; }
@@ -185,62 +138,61 @@ ul.prebook-list {
   .fleet p {
     font-size: 18px;
     color: #fff;
+    text-align: center;
     margin-bottom: 60px; }
   .fleet img {
-    max-width: 100%;
+    height: 250px;
+    width: 400px;
     border: 2px solid #fff;
     border-radius: 5px;
     margin-bottom: 20px; }
 
-.mission h3, .mission h4 {
+.price-table {
   text-align: center; }
+  .price-table table {
+    width: 100%; }
+  .price-table th {
+    text-align: center; }
+  .price-table th, .price-table td {
+    padding: 10px;
+    border: 1px solid #ccc; }
+  .price-table td {
+    text-align: left; }
 
-@media only screen and (min-width: 800px) {
-  .mission {
-    text-align: center; } }
+.promo {
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 25px; }
 
 #accounts {
   padding: 0;
   background: url("../images/corporate_bg.jpg") no-repeat;
   background-size: cover;
-  background-position: 50%;
-  text-align: left; }
+  background-position: 50%; }
   #accounts h3 {
     color: #f18610;
     text-transform: uppercase;
-    margin-bottom: 30px;
-    text-align: center; }
-  #accounts p {
-    font-size: 18px;
-    color: #fff;
-    margin-bottom: 60px; }
+    margin-bottom: 30px; }
   #accounts .container {
-    padding: 30px; }
-  @media only screen and (min-width: 800px) {
-    #accounts {
-      text-align: left; } }
+    padding: 60px; }
 
 .coverage-container {
   background-color: #00b3e6;
   text-align: center;
   color: #fff;
-  padding: 30px; }
+  padding: 60px; }
 
 .coverage {
   text-align: left;
-  column-width: 50%;
-  column-count: 2; }
+  column-width: 33.3%;
+  column-count: 3; }
   .coverage li {
     list-style-type: none;
     color: #fff;
     border-bottom: 1px solid #ccc;
     padding: 5px;
     text-transform: capitalize; }
-  @media only screen and (min-width: 800px) {
-    .coverage {
-      padding: 60px;
-      column-width: 33.3%;
-      column-count: 3; } }
 
 footer {
   background-color: #000;
@@ -248,7 +200,8 @@ footer {
   footer .container {
     padding: 60px 20px; }
   footer .logo {
-    max-width: 100%; }
+    height: 200px;
+    width: 300px; }
   footer h3 {
     text-align: center;
     text-transform: uppercase;
